@@ -1,0 +1,117 @@
+body{
+    background: url(./aurora.gif) no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+}
+.music_container{
+    height: 100%;
+    margin-top: 10%;
+    padding: 20px;
+}
+
+.music_button_wrapper{
+    margin: auto;
+    width: 300px;
+    padding: 5px;
+}
+
+.volume_container{
+    display: inline-block;
+    background-color: rgb(68, 68, 68);
+    padding: 5px;
+}
+
+.comments{
+    color: white;
+}
+.to_comment{
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.comment{
+    padding: 10px;
+    background-color: rgb(83, 83, 83);
+    border-radius: 3px;
+    margin: 5px;
+}
+.commented{
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.music_description{
+    color: white;
+    padding: 10px;
+}
+.music_description *{
+    display: block;
+    margin: 0 auto;
+}
+
+#music_image{
+    width: 250px;
+    height: 250px;
+}
+
+.volume_value{
+    display: inline-block;
+}
+
+#openClose_desc{
+    margin: 0 auto;
+    font-size: 15px;
+    padding: 5px;
+}
+.music_duration_info{
+    color: white;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.music_duration_info span{
+    margin: 0 10px;
+}
+
+.pos-centerX{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-dark{
+    background-color: hsl(0, 0%, 15%);
+}
+
+.bg-light{
+    background-color: hsl(0, 0%, 85%);
+}
+
+.w-100per{
+    width: 100%;
+}
+
+.w-75per{
+    width: 75%;
+}
+
+.w-50per{
+    width: 50%;
+}
+
+.w-25per{
+    width: 25%;
+}
+
+.hidden{
+    display: none;
+}
+.show{
+    display: block;
+}

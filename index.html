@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specify</title>
+    <script src="https://kit.fontawesome.com/680b73e3a3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./specify.png" type="image/x-icon">
+</head>
+<body>
+    
+    <div id="music_container" class="music_container bg-dark w-50per pos-centerX pos-centerY">
+
+        <div class="music_button_wrapper bg-light">
+            <span id="music_button_previous" class="music_button music_button_previous"><i class="fa fa-prev"></i></span>
+            <span id="music_button_playPause" class="music_button music_button_playPause"><i class="fa fa-play"></i></span>
+            <span id="music_button_stop" class="music_button music_button_stop"><i class="fa fa-stop"></i></span>
+            <span id="music_button_next" class="music_button music_button_next"><i class="fa fa-next"></i></span>
+            <span id="music_button_repeat" class="music_button music_button_repeat"><i class="fa fa-repeat"></i></span>
+            <div id="volume_container" class="volume_container">
+                <input type="range" id="music_volume" min="0" max="100" value="10">
+            </div>
+            <div id="volume_value" class="volume_value">10</div>
+        </div>
+
+        <div class="music_duration_info">
+            <span id="duration_total" class="music_duration_total">0:0</span>
+            <span id="duration_current" class="music_duration_current">0:0</span>
+        </div>
+
+        <div class="music_description" id="music_description">
+            <button id="openClose_desc">Description</button>
+            <div id="description_content" class="description_content hidden">
+                
+            </div>
+        </div>
+
+        <div id="comments" class="comments">
+            <div id="to_comment" class="to_comment">
+                <input id="comment_user" type="text" maxlength="20" placeholder="Your username">
+                <input id="comment_content" type="text" placeholder="Comment something...">
+                <button id="button_comment">Accept</button>
+            </div>
+
+            <div id="commented" class="commented">
+
+                <div class="comment">
+                    <span class="comment_username">User1846:</span>
+                    <span class="comment_text">This song slaps!</span>
+                </div>
+                <div class="comment">
+                    <span class="comment_username">Is4cc:</span>
+                    <span class="comment_text">i always listen to this when cleaning</span>
+                </div>
+                
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
